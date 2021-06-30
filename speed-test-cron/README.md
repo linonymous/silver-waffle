@@ -2,6 +2,12 @@
 
 This uses the speedtest-go library, tracks upload/download speeds of the network & logs into the csv file. 
 
+### How to run?
+- Build the binary
+- Run using following command
+``
+  ./speed-test-cron <folder-path-to-store-speed_result.csv-file>
+``
 ### Reason:
 Had to write this script so as to prove to my provider that the speed is not stable & suffers through every 1-2 hours. 
 
